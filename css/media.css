@@ -1,0 +1,87 @@
+@media(max-width:768px){
+    .header{
+        height: 80vh;
+    }
+    .nav-bar-contents{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .nav-menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-menu a{
+        padding: 10px;
+    }
+    .nav-logo{
+        padding-top: 12px;
+        text-align: center;
+    }
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hero-content h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .highlights{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction:column;
+    }
+    .about img{
+        width: 100%;
+    }
+    .about-content{
+        padding-top: 40px;
+    }
+    .about-content h1{
+        font-size: 35px;
+    }
+    .column img{
+        flex:100%;
+        max-width:100%;
+    }
+    .blog{
+        flex-direction: column-reverse;
+    }
+    .blog img{
+        width: 100%;
+    }
+    .blog-content{
+        background-color: rgb(77, 77, 241);
+        color: rgb(219, 219, 219);
+        padding-left: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .team-row{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact img{
+        width: 100%;
+    }
+    .contact-form{
+        padding-top: 30px;
+    }
+    .contact-form a{
+        margin-bottom: 20px;
+    }
+    .post img{
+        width: 300px;
+        margin-bottom: 0;
+    }
+    .container-post .author{
+        padding-bottom: 20px;
+    }
+}
